@@ -1,0 +1,73 @@
+
+.menuItem {
+  color: black;
+  text-decoration: none;
+  display: block;
+  margin: 20px;
+}
+
+input {
+  font-size: x-large;
+  display: block;
+  padding: 8px;
+  border: 3px solid black;
+
+}
+
+.searchButton {
+  position: relative;
+  top: -40px;
+  left: 270px;
+}
+
+.leftColumn {
+  display: inline-flex;
+  flex-direction: column;
+  margin: 5px
+}
+
+.container {
+  display: flex;
+  height: auto
+}
+
+.rightSideColumn {
+  display: inline-flex;
+  flex-direction: row;
+  max-width: max-content;
+  margin: 3px
+}
+
+.rightColumn{
+  display: inline-flex;
+  flex-direction: column;
+  margin:3px
+}
+
+.middleColumn{
+  display: inline-flex;
+  flex-direction: column;
+  margin:3px
+}
+
+.farColumn{
+  display: inline-flex;
+  flex-direction: column;
+  margin:3px
+}
+
+.flex-item {
+  flex-grow: 1;
+}
+
+.rightContainer{
+  width:800px
+}
+
+.p{
+  padding-left: 15px;
+}
+
+.emailButton{
+  position: fixed;
+}
